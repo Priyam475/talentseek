@@ -53,8 +53,7 @@ A dynamic, Flutter-based mobile application that allows students and professiona
 - SANTOSH BERA(MEMBER)
 - BRISTI MAHANTA(MEMBER)
 - SATYAJIT BISWAS(MEMBER)
-
- - 
+---
 
 
 
