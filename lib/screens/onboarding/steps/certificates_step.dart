@@ -22,10 +22,11 @@ class _CertificatesStepState extends State<CertificatesStep> {
   void initState() {
     super.initState();
     // Load existing temporary certificates from the provider
+    //atoms
     // Ensure PortfolioProvider.tempCertificates returns a List<Certificate>
     // and that it's mutable or copied here if direct modification is not intended.
     final provider = context.read<PortfolioProvider>();
-    // Make a copy to avoid modifying the provider's list directly during build,
+    // Make a copy to avoid modifying the provider's list directly during build priyam,
     // or ensure provider.tempCertificates is already a copy.
     _certificates.addAll(provider.tempCertificates);
   }
@@ -34,6 +35,7 @@ class _CertificatesStepState extends State<CertificatesStep> {
     final provider = context.read<PortfolioProvider>();
     // Clear existing temp certificates in the provider
     // Assuming PortfolioProvider has a method like clearTempCertificates()
+    //priyam mondal
     // or you manage this by replacing the list.
     provider.clearTempCertificates(); // You'll need to implement this in PortfolioProvider
 
@@ -215,7 +217,7 @@ class _CertificatesStepState extends State<CertificatesStep> {
             ),
           if (_certificates.isEmpty)
             const Center(
-              child: Padding( // Added padding for better visual spacing
+              child: Padding( // Added padding for better visual spacing //atoms
                 padding: EdgeInsets.symmetric(vertical: 20.0),
                 child: Text('No certificates added yet.'),
               ),
