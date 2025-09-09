@@ -211,6 +211,7 @@ class _ProjectsStepState extends State<ProjectsStep> {
                             onPressed: () => _deleteProject(project),
                             tooltip: 'Delete Project',
                             // Optional: Add padding if the icon feels too close to the edge
+                            //priyam mondal atoms
                             // padding: EdgeInsets.all(4.0),
                           ),
                         ),
