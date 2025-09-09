@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492841988277",
+    "project_id": "talentsik-90c50",
+    "storage_bucket": "talentsik-90c50.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492841988277:android:43f6eac5c2cd939c57cefc",
+        "android_client_info": {
+          "package_name": "com.example.talentseek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF4EiqSe6GfDxVzMWrm2N2eM7DoKbV-Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
